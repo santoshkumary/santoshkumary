@@ -41,8 +41,7 @@ object df_example {
 
       df_updt.select(approx_count_distinct("Salary")).collect().foreach(println)
 
-    println("abbb: "+
-      df_updt.select(approx_count_distinct("Salary")).collect()(0)(0))
+   
 
 
 
